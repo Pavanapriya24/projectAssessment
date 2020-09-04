@@ -28,7 +28,8 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pages.DashBoardPage;
+
+
 
 
 public class Stepdef {
@@ -180,7 +181,7 @@ public class Stepdef {
 	
 	@When("^the user clicks on telecom project$")
 	public void the_user_clicks_on_telecom_project() throws Throwable {
-		DashBoardPage.clickontelecom(driver);
+		Homepage.clickontelecomproject(driver);
 	}
 
 	@When("^click on new customer$")

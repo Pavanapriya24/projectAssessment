@@ -32,7 +32,10 @@ public class Homepage {
     public static By clickonloginLoc=By.xpath("//input[@value='LOGIN']");
 	
 	
-	
+	public static void clickontelecomproject(WebDriver driver)
+	{
+		driver.findElement(clickontelecomLoc).click();
+	}
 	public static void addnewcustomer(WebDriver driver)
 	{
 		//WebDriverWait wait = new WebDriverWait(driver, 60);
